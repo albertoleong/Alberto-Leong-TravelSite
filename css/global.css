@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #fff;
+    display: flex;
+    padding-top: 2.5rem;
+    gap: auto;
+}
+.header__logo {
+    font-size: 2.5rem;
+    color: #335576;
+}
+.header__pages {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
+.header__current {
+    text-decoration: underline;
+    font-size: large;
+}
+.header__links {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+}
