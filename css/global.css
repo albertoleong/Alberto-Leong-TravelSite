@@ -7,10 +7,8 @@
     background-color: white;
     display: flex;
     padding: .75rem;
-    justify-content: center;
-    align-items: center;
-    gap: 13.75rem;
     flex-wrap: nowrap;
+    width: 100%;
 }
 .headerTitles {
     font-size: 1.75rem;
@@ -21,6 +19,7 @@
     display: flex;
     gap: 2.5rem;
     align-items: center;
+    justify-content: end;
 }
 .header__current {
     text-decoration: underline;
@@ -29,4 +28,34 @@
     text-decoration: none;
     font-size: 1.25rem;
     color: black;
+}
+
+.footer {
+    background-color: #fefaf5;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+}
+.footer__days {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__subtitle {
+    font-size: .75rem;
+    color: #DB7A4E;
+    padding-top: 1.25rem;
+}
+.footer__p {
+    font-size: 1.25rem;
+    color: #335576;
+    padding-top: .75rem;
+}
+.footer__icons {
+    padding-top: 2rem;
+    display: flex;
+    gap: 2.5rem;
+}
+.footer__logo {
+    height: 2rem;
 }
