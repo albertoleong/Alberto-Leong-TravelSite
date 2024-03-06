@@ -4,26 +4,60 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-    background-color: #fff;
+    background-color: white;
     display: flex;
-    padding-top: 2.5rem;
-    gap: auto;
+    padding: .75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 13.75rem;
+    flex-wrap: nowrap;
 }
 .header__logo {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: #335576;
 }
 .header__pages {
     list-style: none;
     display: flex;
     gap: 2.5rem;
+    align-items: center;
 }
 .header__current {
     text-decoration: underline;
-    font-size: large;
 }
 .header__links {
     text-decoration: none;
     font-size: 1.25rem;
     color: black;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 5rem 2.5rem 5rem;
+    background-color: #fefaf5;
+}
+.hero__text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero__title {
+    font-size: 3.75rem;
+    color: #335576;
+}
+.hero__p {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.25rem;
+    color: #335576;
+}
+.hero__button {
+    background-color: #DB7A4E;
+}
+.hero__img {
+    width: 36.5rem;
 }
