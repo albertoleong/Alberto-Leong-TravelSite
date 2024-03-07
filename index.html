@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing-Page</title>
     <link href="./css/global.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
     <nav class="header">
-        <div>
-            <h1 class="headerTitles">Travel Site</h1>
+        <div class="header__div">
+            <h1 class="header__titles">Travel Site</h1>
         </div>
         <ul class="header__pages">
             <li><a class="header__links header__current" href="./index.html">Home</a></li>
@@ -21,10 +21,12 @@
     </nav>
 
     <Hero class="hero">
-        <div class="hero__text">
-            <h1 class="hero__title">Traveling Comes with Endless Discoveries</h1>
-            <p class="hero__p">Don't let your dreams be just dreams. Experience the world by booking a avacation with us now.</p>
-            <button class="hero__button">
+        <div class="heroText">
+            <h2 class="heroText__title">Traveling Comes with Endless Discoveries</h2>
+            <p class="heroText__p">Don't let your dreams be just dreams. 
+                Experience the world by booking a avacation with us now.
+            </p>
+            <button class="heroText__button">
                 <a class="button__getStarted" href="">Get started</a>
             </button>
         </div>
@@ -32,28 +34,34 @@
     </Hero>
 
     <Recommendations class="recommendations">
-        <h1 class="headerTitles recommendations__title">Recommendations</h1>
+        <h2 class="headerTitles recommendations__title">Recommendations</h2>
         <div class="recommendations__cards">
-            <card class="recommendations__hawaii">
-                <p class="recommendations__text">Hawaii</p>
-            </card>
-            <card class="recommendations__iceland">
-                <p class="recommendations__text">Iceland</p>
-            </card>
-            <card class="recommendations__greece">
-                <p class="recommendations__text">Greece</p>
-            </card>
+            <a href="./pages/hawaii.html" class="recommendations__link">
+                <card class="recommendations__hawaii">
+                    <p class="recommendations__text">Hawaii</p>
+                </card>
+            </a>
+            <a href="./pages/iceland.html" class="recommendations__link">
+                <card class="recommendations__iceland">
+                    <p class="recommendations__text">Iceland</p>
+                </card>
+            </a>
+            <a href="./pages/greece.html" class="recommendations__link" >
+                <card class="recommendations__greece">
+                    <p class="recommendations__text">Greece</p>
+                </card>
+            </a>
         </div>
     </Recommendations>
 
     <footer class="footer">
        <div class="footer__contact">
-            <h1 class="headerTitles">Contact</h1>
+            <h2 class="header__titles">Contact</h2>
             <p class="footer__subtitle">EMAIL</p>
             <p class="footer__p">info@travelsite.com</p>
        </div>
        <div class="footer__hours">
-            <h1 class="headerTitles">Hours</h1>
+            <h2 class="header__titles">Hours</h2>
             <days class="footer__days">
                 <div class="hours__schedules">
                     <p class="footer__subtitle">MONDAY-FRIDAY</p>
@@ -70,11 +78,17 @@
             </days>
        </div>
        <div>
-            <h1 class="headerTitles">Social</h1>
+            <h2 class="header__titles">Social</h2>
             <logos class="footer__icons">
-                <img class="icons__logo" src="./assets/Icons/icon-instagram.png" alt="Instagram">
-                <img class="icons__logo" src="./assets/Icons/icon-facebook.png" alt="facebook">
-                <img class="icons__logo" src="./assets/Icons/icon-twitter.png" alt="twitter">
+                <a href="https://www.instagram.com/"> 
+                    <img class="icons__logo" src="./assets/Icons/icon-instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/"> 
+                    <img class="icons__logo" src="./assets/Icons/icon-facebook.png" alt="facebook">
+                </a>
+                <a href="https://twitter.com/">
+                    <img class="icons__logo" src="./assets/Icons/icon-twitter.png" alt="twitter">
+                </a>
             </logos>
        </div> 
     </footer>
