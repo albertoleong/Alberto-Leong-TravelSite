@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem 2.5rem 5rem;
+}
+.main__hawaii {
+    background: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.main__iceland {
+    background: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.main__greece {
+    background: url(../assets/Images/greece.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.main__title {
+    color: white;
+    margin: 0;
+    font-size: 400%;
+}
+.articles {
+    display: flex;
+    padding: 2rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.articles__card {
+    width: 16rem;
+    height: 24rem;
+    background-color: white;
+}
+.articles__itinerary {
+
+}

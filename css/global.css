@@ -5,17 +5,16 @@
 }
 .header {
     background-color: white;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     position: fixed;
 }
 .header__div {
-    margin: .75rem 6rem;
+    margin: .75rem 3rem;
 }
 .header__titles {
-    font-size: 1.5rem;
+    font-size: 150%;
     color: #335576;
 }
 .header__pages {
@@ -23,14 +22,14 @@
     display: flex;
     gap: 2.5rem;
     align-items: center;
-    margin-right: 6rem;
+    margin-right: 3rem;
 }
 .header__current {
     text-decoration: underline;
 }
 .header__links {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 100%;
     color: black;
 }
 
@@ -38,6 +37,7 @@
     background-color: #fefaf5;
     display: flex;
     padding: 2.5rem 10rem;
+    flex-wrap: wrap;
 }
 .footer__days {
     display: flex;
