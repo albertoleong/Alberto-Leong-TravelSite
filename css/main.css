@@ -6,44 +6,51 @@
     flex-wrap: wrap;
 }
 
-.heroText {
+.hero__text {
+    margin: 0;
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: start;
 }
-.heroText__title {
-    /*font-size: 3.75rem;*/
-    font-size: 200%;
+.hero__title {
+    margin-left: 5rem;
+    font-size: 250%;
     color: #335576;
 }
-.heroText__p {
+.hero__p {
+    margin-left: 5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    font-size: 100%;
+    font-size: 125%;
     color: #335576;
 }
-.heroText__button {
+.hero__button {
     background-color: #DB7A4E;
-    margin: 0;
+    margin-left: 5rem;
+    border-radius: 20px;
+    border-color: #fefaf5;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 .button__getStarted {
     text-decoration: none;
     color: white;
     font-size: 125%;
-    padding: .25rem 1rem;
+    padding: 0 2rem;
 }
 .hero__img {
-    width: 28.75rem;
+    width: 35rem;
+    margin-right: 5rem;
 }
 
 .recommendations {
     display: flex;
     flex-direction: column;
-    padding: 3.75rem;
+    padding: 4rem 0 8rem 0;
 }
 .recommendations__title {
-    margin: 0;
+    margin-left: 5rem;
 }
 .recommendations__container {
     display: flex;
@@ -53,8 +60,8 @@
     flex-wrap: wrap;
 }
 .recommendations__card {
-    width: 16rem;
-    height: 24rem;
+    width: 20rem;
+    height: 30rem;
     background-size: cover;
     background-position: center;
     border-radius: .3125rem;
@@ -76,8 +83,8 @@
     text-decoration: none;
 }
 .recommendations__text {
-    font-size: 200%;
+    font-size: 150%;
     color: white;
-    padding-left: 8rem;
+    padding-left: 12rem;
     padding-bottom: 1.25rem;
 }

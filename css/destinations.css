@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 5rem 5rem 2.5rem 5rem;
+    min-height: 80vh;
 }
 .main__hawaii {
     background: url(../assets/Images/hawaii.jpg);
@@ -22,18 +23,35 @@
     color: white;
     margin: 0;
     font-size: 400%;
+    padding-top: 5rem;
 }
 .articles {
     display: flex;
-    padding: 2rem;
+    padding: 5rem;
     gap: 2.5rem;
     flex-wrap: wrap;
 }
 .articles__card {
-    width: 16rem;
-    height: 24rem;
+    width: 20rem;
+    height: 30rem;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.articles__title {
+    border-bottom: 2px solid black;
+    padding: 1rem 6rem 0rem 6rem;
 }
 .articles__itinerary {
-
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.articles__entry {
+    background-color: #fefaf5;
+    padding: 1rem 6rem;
 }
