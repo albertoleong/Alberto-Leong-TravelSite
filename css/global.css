@@ -34,6 +34,10 @@
     color: black;
     line-height: 2rem;
 }
+.header__links:hover {
+    border-bottom:3px solid #DB7A4E;
+    line-height: 2rem;
+}
 
 .footer {
     background-color: #fefaf5;
